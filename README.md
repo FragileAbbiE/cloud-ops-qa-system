@@ -16,7 +16,7 @@
     - 智能问答与答案来源溯源
     - 问答操作审计日志记录与查询
 ## 技术栈
-- 编程语言：Python 3.x
+- 编程语言：Python 3.12
 - Web交互框架：Streamlit
 - 关系型数据库：SQLite
 - 向量数据库：Milvus / Milvus Lite
