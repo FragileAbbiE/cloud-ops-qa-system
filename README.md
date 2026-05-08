@@ -28,7 +28,7 @@
 
 ---
 
-## 3. 项目结构（示例）
+## 3. 项目结构
 
 ```text
 cloud-ops-qa-system/
@@ -41,7 +41,7 @@ cloud-ops-qa-system/
 ├── requirements.txt       # 依赖列表
 ├── README.md
 └── 云运维问答.py           # 主入口（按实际文件名）
-4. 环境准备
+## 3. 环境准备
 bash
 # 1) 进入项目
 cd cloud-ops-qa-system
@@ -59,21 +59,20 @@ text
 MODEL_API_BASE=your_model_api_base
 MODEL_API_KEY=your_model_api_key
 MILVUS_URI=./milvus_lite.db
-6. 启动方式
+## 6. 启动方式
 bash
 streamlit run 云运维问答.py
 启动后在浏览器访问提示地址（通常为 http://localhost:8501）。
 
-7. 复现实验最小流程
+## 7. 复现实验最小流程
 启动系统并登录
 导入/准备样例知识文档
 构建或加载向量索引
 发起运维问题
 查看回答与来源
 在审计日志中查看问答记录
-8. 提交说明（答辩版）
+## 8. 提交说明
 本仓库为论文答辩代码审查版本，遵循最小可复现原则：
-
 已包含：核心源码、依赖说明、运行说明
 未包含：大模型权重、完整原始语料、大体积向量索引文件
 如需全量实验数据，请按论文中的数据准备流程自行构建。
