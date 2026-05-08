@@ -41,7 +41,8 @@ cloud-ops-qa-system/
 ├── requirements.txt       # 依赖列表
 ├── README.md
 └── 云运维问答.py           # 主入口（按实际文件名）
-## 3. 环境准备
+---
+## 4. 环境准备
 bash
 # 1) 进入项目
 cd cloud-ops-qa-system
