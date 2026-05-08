@@ -1,0 +1,25 @@
+# Milvus 向量数据库配置
+milvus:
+  uri: "./milvus_data/milvus.db"
+  collection_prefix: "ops_kb"
+
+# 嵌入模型配置
+embedding:
+  model_name: "/root/autodl-tmp/models/AI-ModelScope/bge-small-zh-v1___5"
+  device: "cuda"
+  batch_size: 32
+
+# 数据处理配置
+data:
+  raw_dir: "data/raw"
+  chunk_size: 512
+  chunk_overlap: 50
+
+# 大语言模型配置
+llm:
+  model_name: "/root/autodl-tmp/cloud-ops-qa-system/models/qwen2.5-7b-instruct"
+  device: "cuda"
+  max_new_tokens: 2048
+  temperature: 0.7
+  top_p: 0.9
+
